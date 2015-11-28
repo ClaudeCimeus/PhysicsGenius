@@ -59,7 +59,7 @@ public class graphics
                  System.out.println("Enter speed: ");
                  int time = scanner.nextInt();
 
-                 System.out.println("Speed is " + distance * time );
+                 System.out.println("Velocity is " + distance * time );
              }
          });
 
@@ -126,7 +126,7 @@ public class graphics
              }
          });
 
-         JButton Power = new JButton("Kinetic Energy");  // create the button
+         JButton Power = new JButton("Power");  // create the button
          JPanel panel5 = new JPanel();
          panel.add(Power);  // add the button to the panel
          frame.add(panel, BorderLayout.NORTH);
